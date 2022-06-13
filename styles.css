@@ -22,8 +22,8 @@ h1 {
 
 h2 {
     font-size: 2em;
-    font-weight: 300;
-    text-align: center;
+    font-weight: 400;
+    text-align: left;
 }
 
 h3 {
@@ -107,6 +107,28 @@ p {
 
 .navbartext a {
     padding: 0.5em;
+}
+
+table {
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 0.5em;
+    font-weight: 400;
+    float: up;
+    text-align: left;
+}
+
+td {
+    padding: 0.5em;
+    font-weight: 300;
+    text-align: left;
 }
 
 a:active {
