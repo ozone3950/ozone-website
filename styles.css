@@ -75,6 +75,7 @@ p {
 
 .text {
     margin-top: 1.5em;
+	margin-bottom: 4em;
     margin-left: 3em;
     display: flex;
     flex-direction: column;
@@ -109,11 +110,12 @@ p {
 }
 
 table {
-    width: 50%;
+    width: 33%;
+	margin-bottom: 1em;
 }
 
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 
@@ -124,10 +126,18 @@ th {
     text-align: left;
 }
 
+tr:nth-child(even) {
+  background-color: #202020;
+}
+
 td {
     padding: 0.5em;
     font-weight: 300;
     text-align: left;
+}
+
+.zenyatta {
+	width: 15em;
 }
 
 a:active {
